@@ -6,10 +6,14 @@ document.getElementById("box-button").addEventListener("click", function () {
 
 function handleColorChange() {
   const colLetters = "0123456789abcdef";
-  let color = "#";
+  let firstColor = "#";
+  let secondColor = "#";
   for (let i = 0; i < 6; i++) {
-    color += colLetters[Math.floor(Math.random() * 15)];
+    firstColor += colLetters[Math.floor(Math.random() * 15)];
+    secondColor += colLetters[Math.floor(Math.random() * 15)];
   }
-  console.log(color);
-  return color;
+  const gradient = `linear-gradient(${firstColor}, ${secondColor})`;
+  document.body.style.background = gradient;
+  console.log(gradient);
+  return gradient;
 }
