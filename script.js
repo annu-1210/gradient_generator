@@ -2,7 +2,6 @@ document.getElementById("randomButton").addEventListener("click", function () {
   document.getElementById("randomColor-div").style.backgroundColor = randomColorChange();
   const colorCode = randomColorChange();
   document.getElementById("randomValues").textContent = colorCode;
-  document.getElementsByClassName("box-button").style.backgroundColor = "rgb(28, 27, 25)";
 });
 
 function randomColorChange() {

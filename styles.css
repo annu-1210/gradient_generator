@@ -73,6 +73,7 @@ body {
   background: transparent;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
   backdrop-filter: blur(40px);
+  border-radius: 10px;
 }
 
 .color-box {
@@ -96,16 +97,25 @@ body {
 }
 
 .box-button {
-  padding: 1rem 1.5rem;
+  padding: 1.3rem 1.5rem;
   border: none;
-  border-radius: 30px;
+  border-radius: 20px;
   /* background-color: rgb(95, 67, 11); */
-  background-color: #6c6e6c;
+  /* background-color: #6c6e6c; */
+  background-color: rgb(28, 27, 25);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  border: 1px solid grey;
   color: rgb(249, 246, 241);
   letter-spacing: 0.1rem;
 }
 
 .box-button:hover {
-  background-color: rgb(28, 27, 25);
+  background-color: rgb(0, 0, 0);
   cursor: pointer;
+}
+
+.box-colorcode{
+  box-shadow: 0 13px 20px rgba(0, 0, 0, .3);
+  padding: 1rem 2rem;
+  border-radius: 66px;
 }
