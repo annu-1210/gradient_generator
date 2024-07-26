@@ -1,11 +1,11 @@
 document.getElementById("box-button").addEventListener("click", function () {
-  document.body.style.backgroundColor = handleColorChange();
-  const colorCode = handleColorChange();
+  document.body.style.backgroundColor = randomColorChange();
+  const colorCode = randomColorChange();
   document.getElementById("box-colorcode").textContent = colorCode;
   document.getElementById("box-button").style.backgroundColor = "rgb(65, 44, 2)";
 });
 
-function handleColorChange() {
+function randomColorChange() {
   const colLetters = "0123456789abcdef";
   let firstColor = "#";
   let secondColor = "#";
