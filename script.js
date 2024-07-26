@@ -1,8 +1,8 @@
-document.getElementById("box-button").addEventListener("click", function () {
-  document.body.style.backgroundColor = randomColorChange();
+document.getElementById("randomButton").addEventListener("click", function () {
+  document.getElementById("randomColor-div").style.backgroundColor = randomColorChange();
   const colorCode = randomColorChange();
-  document.getElementById("box-colorcode").textContent = colorCode;
-  document.getElementById("box-button").style.backgroundColor = "rgb(65, 44, 2)";
+  document.getElementById("randomValues").textContent = colorCode;
+  document.getElementsByClassName("box-button").style.backgroundColor = "rgb(28, 27, 25)";
 });
 
 function randomColorChange() {
@@ -14,7 +14,7 @@ function randomColorChange() {
     secondColor += colLetters[Math.floor(Math.random() * 15)];
   }
   const gradient = `linear-gradient(${firstColor}, ${secondColor})`;
-  document.body.style.background = gradient;
+  document.getElementById("randomColor-div").style.background = gradient;
   console.log(gradient);
   return gradient;
 }
