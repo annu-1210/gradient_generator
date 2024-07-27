@@ -52,16 +52,16 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 8rem;
   margin-bottom: 5rem;
   gap: 1rem;
 }
 
 .container{
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   gap: 3rem;
   padding: 3rem 1rem;
   /* background-color: #555655; */
