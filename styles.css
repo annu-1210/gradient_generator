@@ -24,7 +24,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-} 
+}
 
 #nav-lists {
   display: flex;
@@ -48,7 +48,7 @@ body {
   list-style: none;
 }
 
-.main-body{
+.main-body {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,16 +58,16 @@ body {
   gap: 1rem;
 }
 
-.container{
+.container {
   gap: 3rem;
   padding: 3rem 1rem;
 }
 
-.Color-boxes{
+.Color-boxes {
   width: 70%;
   height: 20rem;
   background: transparent;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(40px);
   border-radius: 10px;
 }
@@ -97,7 +97,7 @@ body {
   /* background-color: rgb(95, 67, 11); */
   /* background-color: #6c6e6c; */
   background-color: rgb(28, 27, 25);
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   border: 1px solid grey;
   color: rgb(249, 246, 241);
   letter-spacing: 0.1rem;
@@ -108,8 +108,8 @@ body {
   cursor: pointer;
 }
 
-.box-colorcode{
-  box-shadow: 0 13px 20px rgba(0, 0, 0, .3);
+.box-colorcode {
+  box-shadow: 0 13px 20px rgba(0, 0, 0, 0.3);
   padding: 1rem 2rem;
   border-radius: 66px;
 }

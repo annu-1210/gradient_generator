@@ -1,5 +1,6 @@
 document.getElementById("randomButton").addEventListener("click", function () {
-  document.getElementById("randomColor-div").style.backgroundColor = randomColorChange();
+  document.getElementById("randomColor-div").style.backgroundColor =
+    randomColorChange();
   const colorCode = randomColorChange();
   document.getElementById("randomValues").textContent = colorCode;
 });
