@@ -1,3 +1,5 @@
+import { ColorPicker } from '@syncfusion/ej2-inputs';
+ 
 document.getElementById("randomButton").addEventListener("click", function () {
   document.getElementById("randomColor-div").style.backgroundColor =
     randomColorChange();
@@ -18,3 +20,5 @@ function randomColorChange() {
   console.log(gradient);
   return gradient;
 }
+
+let ColorPicker = new ColorPicker({}, '#color-picker');
